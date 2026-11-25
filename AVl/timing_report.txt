@@ -1,0 +1,41 @@
+For testcase_avl.txt:
+
+operation,count,total_ns,average_ns
+insert,47,6958,148
+delete,23,4003,174
+find,7,460,65
+traverse,3,4333,1444
+
+
+For testcase_basic_interval.txt:
+
+operation,count,total_ns,average_ns
+add,14,24000,1714
+remove,15,15419,1027
+update,6,8041,1340
+conflict,8,1000,125
+overlaps,11,9460,860
+at,10,4960,496
+next,11,1000,90
+
+For testcase_edge_interval.txt:
+
+operation,count,total_ns,average_ns
+add,19,33501,1763
+remove,18,21667,1203
+update,5,8376,1675
+conflict,13,1417,109
+overlaps,10,11833,1183
+at,16,13749,859
+next,13,1252,96
+
+For testcase_large_interval.txt:
+
+operation,count,total_ns,average_ns
+add,950,972059,1023
+remove,120,50703,422
+update,130,104086,800
+conflict,150,7332,48
+overlaps,150,75554,503
+at,150,40830,272
+next,150,12544,83

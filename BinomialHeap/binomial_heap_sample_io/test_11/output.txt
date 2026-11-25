@@ -1,0 +1,174 @@
+Printing Binomial Heap H1
+Heap size: 7
+Binomial Tree, B0
+Level 0: 40
+Binomial Tree, B1
+Level 0: 10
+Level 1: 25
+Binomial Tree, B2
+Level 0: 15
+Level 1: 20 30
+Level 2: 50
+Visualizing Heap H1 (size 7)
+B0 tree (root 40):
+└── 40
+B1 tree (root 10):
+└── 10
+    └── 25
+B2 tree (root 15):
+└── 15
+    ├── 30
+    │   └── 50
+    └── 20
+Root degrees: [0, 1, 2]
+Printing Binomial Heap H2
+Heap size: 4
+Binomial Tree, B2
+Level 0: 5
+Level 1: 7 35
+Level 2: 12
+Visualizing Heap H2 (size 4)
+B2 tree (root 5):
+└── 5
+    ├── 7
+    │   └── 12
+    └── 35
+Root degrees: [2]
+Visualizing Heap H1 (size 7)
+B0 tree (root 40):
+└── 40
+B1 tree (root 10):
+└── 10
+    └── 25
+B2 tree (root 15):
+└── 15
+    ├── 30
+    │   └── 50
+    └── 20
+Root degrees: [0, 1, 2]
+Visualizing Heap H2 (size 4)
+B2 tree (root 5):
+└── 5
+    ├── 7
+    │   └── 12
+    └── 35
+Root degrees: [2]
+Merged root list (degrees): 0 1 2 2 
+Step 1: linking B2 (root 15) and B2 (root 5) -> B3 with root 5
+Union complete.
+Final heap:
+Visualizing Heap H1 (size 11)
+B0 tree (root 40):
+└── 40
+B1 tree (root 10):
+└── 10
+    └── 25
+B3 tree (root 5):
+└── 5
+    ├── 15
+    │   ├── 30
+    │   │   └── 50
+    │   └── 20
+    ├── 7
+    │   └── 12
+    └── 35
+Root degrees: [0, 1, 3]
+Printing Binomial Heap H1
+Heap size: 11
+Binomial Tree, B0
+Level 0: 40
+Binomial Tree, B1
+Level 0: 10
+Level 1: 25
+Binomial Tree, B3
+Level 0: 5
+Level 1: 7 15 35
+Level 2: 12 20 30
+Level 3: 50
+Visualizing Heap H1 (size 11)
+B0 tree (root 40):
+└── 40
+B1 tree (root 10):
+└── 10
+    └── 25
+B3 tree (root 5):
+└── 5
+    ├── 15
+    │   ├── 30
+    │   │   └── 50
+    │   └── 20
+    ├── 7
+    │   └── 12
+    └── 35
+Root degrees: [0, 1, 3]
+Extract Min returned: 5
+Printing Binomial Heap H1
+Heap size: 10
+Binomial Tree, B1
+Level 0: 35
+Level 1: 40
+Binomial Tree, B3
+Level 0: 7
+Level 1: 10 12 15
+Level 2: 20 25 30
+Level 3: 50
+Visualizing Heap H1 (size 10)
+B1 tree (root 35):
+└── 35
+    └── 40
+B3 tree (root 7):
+└── 7
+    ├── 15
+    │   ├── 30
+    │   │   └── 50
+    │   └── 20
+    ├── 10
+    │   └── 25
+    └── 12
+Root degrees: [1, 3]
+Printing Binomial Heap H1
+Heap size: 10
+Binomial Tree, B1
+Level 0: 35
+Level 1: 40
+Binomial Tree, B3
+Level 0: 2
+Level 1: 7 12 15
+Level 2: 10 20 30
+Level 3: 50
+Visualizing Heap H1 (size 10)
+B1 tree (root 35):
+└── 35
+    └── 40
+B3 tree (root 2):
+└── 2
+    ├── 15
+    │   ├── 30
+    │   │   └── 50
+    │   └── 20
+    ├── 7
+    │   └── 10
+    └── 12
+Root degrees: [1, 3]
+Printing Binomial Heap H1
+Heap size: 9
+Binomial Tree, B0
+Level 0: 12
+Binomial Tree, B3
+Level 0: 2
+Level 1: 7 15 20
+Level 2: 10 35 50
+Level 3: 40
+Visualizing Heap H1 (size 9)
+B0 tree (root 12):
+└── 12
+B3 tree (root 2):
+└── 2
+    ├── 7
+    │   ├── 35
+    │   │   └── 40
+    │   └── 10
+    ├── 15
+    │   └── 50
+    └── 20
+Root degrees: [0, 3]
